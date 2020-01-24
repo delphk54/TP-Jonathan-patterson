@@ -97,9 +97,9 @@ main{
  }
 
  .cliquable span{
-     color: white;
+    color: white;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 10%;
 }
 h1{
