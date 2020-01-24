@@ -54,7 +54,10 @@ main{
     grid-row-start: 2;
     grid-row-end: 3;
     border-width: 1px 1px 1px 1px;
-    background-color: rgb(0, 146, 255);               
+    background-color: rgb(0, 146, 255);  
+    background-image: url(/canettes.png);
+    background-size: cover;
+    background-repeat: no-repeat;             
 }
 
 .test6{
