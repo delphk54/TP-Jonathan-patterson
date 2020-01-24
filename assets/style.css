@@ -1,3 +1,5 @@
+/* REMISE A 0 DU CSS */
+
 a, abbr, acronym, address, applet, article, aside, audio,
 b, blockquote, big, body,
 center, canvas, caption, cite, code, command,
@@ -24,3 +26,16 @@ var{
     margin: 0;
     padding: 0;
     vertical-align: baseline; }
+
+
+/*  */
+main{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(2 50vh);
+}
+.test{
+    border: solid black 2px;
+}
