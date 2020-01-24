@@ -1,41 +1,75 @@
-/* REMISE A 0 DU CSS */
 
-a, abbr, acronym, address, applet, article, aside, audio,
-b, blockquote, big, body,
-center, canvas, caption, cite, code, command,
-datalist, dd, del, details, dfn, dl, div, dt, 
-em, embed,
-fieldset, figcaption, figure, font, footer, form, 
-h1, h2, h3, h4, h5, h6, header, hgroup, html,
-i, iframe, img, ins,
-kbd, 
-keygen,
-label, legend, li, 
-meter,
-nav,
-object, ol, output,
-p, pre, progress,
-q, 
-s, samp, section, small, span, source, strike, strong, sub, sup,
-table, tbody, tfoot, thead, th, tr, tdvideo, tt,
-u, ul, 
-var{
-    background: transparent;
-    font-size: 100%;
-    border: 0 none;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline; }
-
-
-/*  */
 main{
-    width: 60%;
+    width: 100%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2 50vh);
+    
+   
+    
 }
-.test{
-    border: solid black 2px;
+.test1{
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+border:solid black ;
+border-width: 1px 1px 1px 1px;
+background-color: rgba(51, 51, 51, 51);
+
+    
 }
+
+.test2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border:solid black ;
+    border-width: 1px 1px 1px 1px;
+    background-color: rgba(51, 51, 51, 51);
+        
+    }
+    .test3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        border:solid black ;
+        border-width: 1px 1px 1px 1px;
+        background-color: rgba(51, 51, 51, 51);
+            
+        }  
+
+        .test4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            border:solid black ;
+            border-width: 1px 1px 1px 1px;
+            background-color: rgba(51, 51, 51, 51);
+                
+            }  
+        .test5{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            border:solid black ;
+            border-width: 1px 1px 1px 1px;
+            background-color: rgba(51, 51, 51, 51);
+                
+            }
+
+            .test6{
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                border:solid black ;
+                border-width: 1px 1px 1px 1px;
+                background-color: rgba(51, 51, 51, 51);
+                    
+                }
