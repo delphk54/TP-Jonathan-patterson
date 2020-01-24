@@ -2,7 +2,7 @@
 main{
     width: 100%;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: grid; 
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 50vh;  
@@ -94,6 +94,8 @@ main{
      position: absolute;
      bottom: 10%;
      left: 10%;
+     border-bottom: solid white 1px;
+     
  }
 
  .cliquable span{
